@@ -2,7 +2,7 @@ site_name: Cerera
 site_url: https://williamadamswag.github.io/Cerera/
 site_description: .
 
-copyright: Copyright &copy; 2026 Никита Чесноков
+copyright: "Cerera — открытый проект. Maintainer: Никита Чесноков"
 
 theme:
     name: material
@@ -52,11 +52,12 @@ nav:
         - Материалы:
             - Условные обозначения: math-analysis/exam/timefile.md
         - Билеты:
-            - 1. Множества, операции над множествами, их свойства: math-analysis/exam/ticket1.md
-            - 2. Функции, образы и прообразы, их свойства: math-analysis/exam/ticket2.md
-            - 3. Инъекция, сюръекция, биекция: math-analysis/exam/ticket3.md
-            - 5. Бинарные отношения. Отношения эквивалентности и теорема о разбиении множества: math-analysis/exam/ticket5.md
-            - 7. Счетные множества: math-analysis/exam/ticket7.md
+            - 1 Семестр:
+                - 1. Множества, операции над множествами, их свойства: math-analysis/exam/sem1/ticket1.md
+                - 2. Функции, образы и прообразы, их свойства: math-analysis/exam/sem1/ticket2.md
+                - 3. Инъекция, сюръекция, биекция: math-analysis/exam/sem1/ticket3.md
+                - 5. Бинарные отношения. Отношения эквивалентности и теорема о разбиении множества: math-analysis/exam/sem1/ticket5.md
+                - 7. Счетные множества: math-analysis/exam/sem1/ticket7.md
 
     - Алгебра:
         - Алгебра: algebra/index.md
