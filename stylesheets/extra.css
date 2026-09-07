@@ -13,3 +13,9 @@ mjx-container[jax="CHTML"][display="true"] {
        background: var(--md-default-fg-color--lighter);
        border-radius: 3px;
    }
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
