@@ -58,6 +58,10 @@ nav:
             - 5. Бинарные отношения. Отношения эквивалентности и теорема о разбиении множества: math-analysis/exam/ticket5.md
             - 7. Счетные множества: math-analysis/exam/ticket7.md
 
+    - Алгебра:
+        - Алгебра: algebra/index.md
+        - Матрицы: algebra/theory/part1.md
+
     - ОИиП:
         - Основы информатики и программирования: base_inf_and_prog/index.md
         - Лабы:
