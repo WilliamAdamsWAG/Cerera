@@ -61,7 +61,9 @@ nav:
 
     - Алгебра:
         - Алгебра: algebra/index.md
-        - Матрицы: algebra/theory/part1.md
+        - Матрицы: 
+            - Определение матрицы: algebra/theory/part1.md
+            - Элементарные преобразования матриц, эквивалентность: algebra/theory/part2.md
 
     - ОИиП:
         - Основы информатики и программирования: base_inf_and_prog/index.md
