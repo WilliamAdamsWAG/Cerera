@@ -60,6 +60,7 @@ nav:
                 - 7. Счетные множества: math-analysis/exam/sem1/ticket7.md
 
     - Алгебра:
+        - Предметный указатель: algebra/glossary.md
         - Алгебра: algebra/index.md
         - Матрицы: 
             - Определение матрицы: algebra/theory/part1.md
