@@ -58,6 +58,7 @@ nav:
                 - 3. Инъекция, сюръекция, биекция: math-analysis/exam/sem1/ticket3.md
                 - 5. Бинарные отношения. Отношения эквивалентности и теорема о разбиении множества: math-analysis/exam/sem1/ticket5.md
                 - 7. Счетные множества: math-analysis/exam/sem1/ticket7.md
+    - Git: git.md
 
     - Алгебра:
         - Предметный указатель: algebra/glossary.md
