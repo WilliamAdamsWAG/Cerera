@@ -20,6 +20,7 @@ theme:
           primary: indigo
           accent: indigo
           toggle:
+          
                 icon: material/brightness-4
                 name: Переключиться на светлую тему
 
@@ -49,6 +50,7 @@ nav:
             - Введение: math-analysis/set-theory/index.md
             - 1. Основные понятия: math-analysis/set-theory/part1.md
             - 2. Операции над множествами: math-analysis/set-theory/part2.md
+            - 3. Мат. индукция: math-analysis/set-theory/math_induction.md
         - Материалы:
             - Условные обозначения: math-analysis/exam/timefile.md
         - Билеты:
