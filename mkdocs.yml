@@ -53,6 +53,13 @@ nav:
             - 3. Мат. индукция: math-analysis/set-theory/math_induction.md
         - Материалы:
             - Условные обозначения: math-analysis/exam/timefile.md
+        - Контрольные:
+            - 1 Семестр:
+                - КР. 1: math-analysis/tests/sem1/test1.md
+                - КР. 2: math-analysis/tests/sem1/test2.md
+            - 2 Семестр:
+                - КР. 3: math-analysis/tests/sem2/test3.md
+                - КР. 4: math-analysis/tests/sem2/test4.md
         - Билеты:
             - 1 Семестр:
                 - 1. Множества, операции над множествами, их свойства: math-analysis/exam/sem1/ticket1.md
