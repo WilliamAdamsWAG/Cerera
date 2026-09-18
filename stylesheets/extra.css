@@ -19,3 +19,53 @@ mjx-container[jax="CHTML"][display="true"] {
   border-width: 0;
   border-left-width: 4px;
 }
+
+/* === БЛОЧНЫЕ формулы ($$...$$) === */
+.arithmatex mjx-container[display="true"],
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-left: 16px !important;
+  padding-right: 40px !important;
+  margin: 1em 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Скроллбар для блочных формул */
+.arithmatex mjx-container[display="true"]::-webkit-scrollbar,
+.katex-display::-webkit-scrollbar {
+  height: 6px;
+}
+
+.arithmatex mjx-container[display="true"]::-webkit-scrollbar-track,
+.katex-display::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.arithmatex mjx-container[display="true"]::-webkit-scrollbar-thumb,
+.katex-display::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+/* === СТРОЧНЫЕ формулы ($...$) — никаких отступов === */
+.arithmatex mjx-container:not([display="true"]),
+.katex:not(.katex-display) {
+  overflow-x: visible !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline !important;
+  white-space: nowrap;
+}
+
+/* Защита: сам контейнер .arithmatex для инлайна не должен блочить */
+span.arithmatex {
+  display: inline;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+div.arithmatex {
+  display: block;
+}
